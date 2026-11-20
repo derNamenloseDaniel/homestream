@@ -3,7 +3,7 @@
 # Hetzner, any VPS, an old PC) into a running Jellyfin + Jellyseerr server.
 #
 # Usage on the server:
-#   git clone https://github.com/danielzaiser91/homestream.git
+#   git clone https://github.com/derNamenloseDaniel/homestream.git
 #   cd homestream
 #   cp .env.example .env && nano .env      # fill in domains + email
 #   sudo bash scripts/bootstrap.sh

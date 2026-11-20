@@ -5,11 +5,11 @@ Two things in one repo:
 1. **HomeFlix** — a live, Netflix-style streaming **web app** you can open and
    watch right now: billboard, genre rows, click-to-play player, search. Runs
    fully static on GitHub Pages, streaming a catalog of verified public-domain
-   films. **▶ Watch: https://danielzaiser91.github.io/homestream/**
+   films. **▶ Watch: https://dernamenlosedaniel.github.io/homestream/**
 2. **HomeStream** — a free, self-hosted media-server stack (**Jellyfin** +
    **Jellyseerr** + **Caddy**) for *your own* library, deployable to a free
    Oracle Cloud ARM box, tuned to stream **2K to ~4 people at once**.
-   Guide: [/about.html](https://danielzaiser91.github.io/homestream/about.html).
+   Guide: [/about.html](https://dernamenlosedaniel.github.io/homestream/about.html).
 
 ---
 
@@ -37,7 +37,7 @@ Two things in one repo:
 
 ```bash
 # On a fresh Ubuntu 22.04/24.04 server (Oracle ARM, Hetzner, old PC…):
-git clone https://github.com/danielzaiser91/homestream.git
+git clone https://github.com/derNamenloseDaniel/homestream.git
 cd homestream
 cp .env.example .env      # set your two domains + email + media path
 nano .env
