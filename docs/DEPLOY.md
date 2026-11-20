@@ -58,7 +58,7 @@ SSH in, then:
 ssh -i /path/to/key ubuntu@<VM_PUBLIC_IP>
 
 sudo apt-get update && sudo apt-get install -y git
-git clone https://github.com/danielzaiser91/homestream.git
+git clone https://github.com/derNamenloseDaniel/homestream.git
 cd homestream
 cp .env.example .env
 nano .env          # set the two domains, ACME_EMAIL, TZ, MEDIA_PATH=/srv/media
